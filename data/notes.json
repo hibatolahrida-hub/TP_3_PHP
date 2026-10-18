@@ -1,0 +1,29 @@
+[
+    {
+        "nom": "Ahmed",
+        "notes": [
+            15,
+            12,
+            18
+        ],
+        "moyenne": 15
+    },
+    {
+        "nom": "Sara",
+        "notes": [
+            14,
+            16,
+            13
+        ],
+        "moyenne": 14.33
+    },
+    {
+        "nom": "Youssef",
+        "notes": [
+            10,
+            11,
+            12
+        ],
+        "moyenne": 11
+    }
+]
