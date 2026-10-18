@@ -1,3 +1,6 @@
+// Auteur : Hibatolah Rida
+// Objectif : Tester les bases de PHP
+// Date : 17/10/2026
 <nav>
     <a href="exo1_bases.php">Bases PHP</a>
     <a href="exo2_flux.php">Boucles</a>

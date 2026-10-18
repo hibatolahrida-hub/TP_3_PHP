@@ -1,3 +1,6 @@
+// Auteur : Hibatolah Rida
+// Objectif : Tester les bases de PHP
+// Date : 17/10/2026
 <?php
 require_once 'config.php';
 ?>
