@@ -1,7 +1,7 @@
+<?php
 // Auteur : Hibatolah Rida
 // Objectif : Tester les bases de PHP
 // Date : 17/10/2026
-<?php
 require "config.php";
 
 echo "<h3>Exercice 2.1: if/elseif/else </h3>";

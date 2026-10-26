@@ -1,6 +1,8 @@
+<?php
 // Auteur : Hibatolah Rida
 // Objectif : Tester les bases de PHP
 // Date : 17/10/2026
+?>
 <footer>
         <p>&copy; 2026 - <?php echo ETABLISSEMENT; ?> - Tous droits réservés.</p>
         <p>Date du jour : <?php echo date("d/m/Y"); ?></p>

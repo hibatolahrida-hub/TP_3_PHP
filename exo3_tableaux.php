@@ -1,10 +1,13 @@
+<?php
 // Auteur : Hibatolah Rida
 // Objectif : Tester les bases de PHP
 // Date : 17/10/2026
+?>
 <?php
 require "config.php";
-
-   Fonction utilisée pour calculer les mentions.
+require "includes/entete_inc.php";
+require "includes/menu_inc.php";
+  // Fonction utilisée pour calculer les mentions.
 function mention($note) {
     if ($note >= 16) {
         return "Très bien";
@@ -45,7 +48,7 @@ echo "indice 1 : $modules[1] <br>";
 echo "indice 2 : $modules[2] <br>";
 echo "<hr>";
 
-    Fonction demandée pour afficher un tableau.
+   // Fonction demandée pour afficher un tableau.
 function afficher_tableau($tab, $titre) {
     echo "<strong>$titre :</strong><br>";
     foreach ($tab as $k => $v) {
@@ -54,7 +57,7 @@ function afficher_tableau($tab, $titre) {
     echo "<br><br>";
 }
 
-   Exercice 3.2
+   //Exercice 3.2
 
 echo "<h3>Exercice 3.2 :Notes et mentions</h3>";
 
@@ -149,7 +152,7 @@ afficher_tableau($tri, "Noms décroissants krsort");
 $tri = $notes;
 asort($tri);
 afficher_tableau($tri, "Notes croissantes asort");
-   Pour un tableau indexé, on peut utiliser sort().
+  // Pour un tableau indexé, on peut utiliser sort().
 echo "<hr>";
 echo "<h3>Exercice 3.5 : Opérateurs de tableaux</h3>";
 $a = ["x" => 1, "y" => 2];
@@ -165,4 +168,38 @@ echo "<br><strong>\$a === \$b (égalité stricte : même ordre et types) :</stro
 var_dump($a === $b);
 
 // + : union des tableaux.
+?>
+<?php
+require "includes/pied_inc.php";
+?>
+<?php
+/* voir l'affichade dans le README
+echo "<h3>Experience avec include</h3>";
+
+include "fichier_inexistant.php";
+
+echo "Suite du script executee avec include.<br>";
+
+/*
+Observation :
+include affiche un warning si le fichier n'existe pas.
+Le script continue son execution apres le warning.
+*/
+
+?>
+
+<?php
+/*
+echo "<h3>Experience avec require</h3>";
+
+require "fichier_inexistant.php";
+
+echo "Suite du script executee avec require.";
+
+/*
+Observation :
+require provoque une erreur fatale si le fichier n'existe pas.
+La suite du script ne s'execute pas.
+*/
+
 ?>

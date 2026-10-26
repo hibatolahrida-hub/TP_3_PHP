@@ -1,29 +1,20 @@
 [
     {
-        "nom": "Ahmed",
-        "notes": [
-            15,
-            12,
-            18
-        ],
-        "moyenne": 15
+        "nom": "hibarid",
+        "note_info": 19,
+        "note_math": 16,
+        "moyenne": 17.5
     },
     {
-        "nom": "Sara",
-        "notes": [
-            14,
-            16,
-            13
-        ],
-        "moyenne": 14.33
+        "nom": "hibarid",
+        "note_info": 17,
+        "note_math": 18,
+        "moyenne": 17.5
     },
     {
-        "nom": "Youssef",
-        "notes": [
-            10,
-            11,
-            12
-        ],
-        "moyenne": 11
+        "nom": "hibarid",
+        "note_info": 17,
+        "note_math": 16,
+        "moyenne": 16.5
     }
 ]
